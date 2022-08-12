@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: rgb(253, 252, 252) !important ;
+}
+
+.brand-logo,h2{
+  font-family: 'Grand Hotel', cursive;
+}
+.my-card{
+    margin-top: 50px;
+}
+
+.auth-card{
+  padding: 2rem;
+  text-align: center;
+  max-width: 40rem;
+  margin:10px auto;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(77, 9, 62) !important ;
+  box-shadow: 0 1px 0 0 rgb(88, 7, 88) !important ;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(77, 9, 62) !important ;
+  box-shadow: 0 1px 0 0 rgb(88, 7, 88) !important ;
+}
+.material-icons:hover{
+  color: black !important;
+  cursor: pointer;
+}
+.material-icons{
+ 
+  color: #df3bdf;
+}
+.search-icon:hover{
+  color: black !important;
+}
+
+.redirect-link:hover{
+  color: #52052f;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+}
+
+.home-card{
+  max-width: 800px;
+  height: max-content;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#toast-container{
+  top: 30px !important ;
+  right: 500px !important;
+  left: auto !important;
+
+}
+.collection-item{
+  width: 100%;
+}
+.posted-user{
+  color: rgba(0, 0, 0, 0.847) !important;
+  margin-left: 20px;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.nav{
+  display: flex;
+  background-color:#640864;
+  height: 10vh;
+  
+}
+
+.navleft{
+  width: 50vw;
+}
+
+.navleft h1{
+  margin: 1rem 1rem;
+  font-size: 1.5rem;
+  padding: .7rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navright{
+  width: 50vw;
+}
+
+.navright ul{
+  display: flex;
+  float: right;
+}
+
+.navright ul li{
+  padding: 1rem 1rem;
+  color: white;
+  /* transition: all .5s ease-in; */
+  cursor: pointer;
+}
+
+.navright ul li:hover{
+  transform: scale(1.2);
+}
+.navleft h1:hover{
+  transform: scale(1.2);
+}
+
+.burger i{
+  position: absolute;
+  top: .9rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+  .nav{
+    flex-direction: column;
+    height: 24rem;
+  }
+  .navleft{
+    width: 100vw
+  }
+  .navleft h1{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .navright{
+    width: 100vw;
+  }
+  .navright ul{
+    flex-direction: column;
+  }
+  .navright{
+    text-align: center;
+  }
+  .navright ul li{
+    margin: 0 31vw;
+  }
+  #h-res{
+    height: 4rem;
+  }
+  #v-res{
+    display: none;
+  }
+  .burger i{
+    display: block;
+  }
+  .mob-view{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .mob-view-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+  }
+}
+
+.material-icons {
+  
+  margin-left: 25px !important;
+}
